@@ -17,9 +17,9 @@ def index_html():
 def new_html():
     return render_template("base.html")
 
-@app.route("/page2")
-def page2():
-    return render_template("page2.html")
+@app.route("/login")
+def login_page():
+    return render_template("login.html")
 
 @app.route("/json")
 def json():
